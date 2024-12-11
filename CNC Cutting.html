@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/signage1.png" rel="icon">
+  <link href="assets/img/signage1.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main1.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Append
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+         <img src="assets/img/signage1-removebg-preview.png" alt=""> 
+        <!-- <h1 class="sitename">Append</h1><span>.</span> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" >Home</a></li>
+          <li><a href="blog.html">About</a></li>
+          <li><a href="index.html#services" class="active">Services</a></li>
+          <li><a href="portfolio-details.html" >Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="tel:+91 9685220101">Call Now</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>CNC Cutting</h1>
+              <p class="mb-0">A manufacturing process in which pre-programmed computer software dictates the movement of factory tools and machinery.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">CNC Cutting</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+    <br><br><br><br>
+
+    <!-- Portfolio Details Section -->
+    <div class="modern-slider-container">
+      <div class="modern-slider">
+        <div class="modern-slide"><img src="assets/img/services/c6.jpg" alt="Image 1"></div>
+        <div class="modern-slide"><img src="assets/img/services/c4.jpg" alt="Image 2"></div>
+        <div class="modern-slide"><img src="assets/img/services/c9.jpg" alt="Image 3"></div>
+      </div>
+      <div class="slider-navigation">
+        <span class="nav-dot" onclick="goToSlide(0)"></span>
+        <span class="nav-dot" onclick="goToSlide(1)"></span>
+        <span class="nav-dot" onclick="goToSlide(2)"></span>
+      </div>
+      <button class="modern-prev-btn" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="modern-next-btn" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    
+         <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gallery</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">CNC Cutting</li>
+            <!-- <li data-filter=".filter-app">ACP</li> -->
+            <!-- <li data-filter=".filter-product">Acrylic</li> -->
+            <!-- <li data-filter=".filter-branding">Sign</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/services/C1.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Fabric Board</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/C1.webp" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/services/C2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Acrylic Logo</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/C2.jpg" title="Acrylic Logo" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/services/c3.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>stainless Steel Back Light</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c3.webp" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/services/c4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Aluminium Channel Letters</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c4.jpg" title="Acrylic Logo" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/services/c5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>ACP Elevation</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c5.jpg" title="ACP Elevation" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/services/c6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Acrylic Logo</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c6.jpg" title="Acrylic Logo" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/services/c7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>LED Board</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c7.jpg" title="LED Board" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/services/c8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Acrylic Sign</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/services/c9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Acrylic Sign</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/c9.jpg" title="Acrylic Sign" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/services/CNC 1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <!-- <h4>Acrylic Logo</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/services/CNC 1.jpg" title="Acrylic Logo" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <!-- <img src="assets/img/portfolio/saksham.jpg" class="img-fluid" alt=""> -->
+              <div class="portfolio-info">
+                <!-- <h4>LED Board</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/portfolio/saksham.jpg" title="LED Board" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <!-- <img src="assets/img/portfolio/CNC CUtting.jpg" class="img-fluid" alt=""> -->
+              <div class="portfolio-info">
+                <!-- <h4>CNC Cutting</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/portfolio/CNC 2.jpg" title="CNC Cutting" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <!-- <img src="assets/img/portfolio/vijay shree.jpg" class="img-fluid" alt=""> -->
+              <div class="portfolio-info">
+                <!-- <h4>Hindi Sign Board</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <a href="assets/img/portfolio/vijay shree.jpg" title="Hindi Sign Board" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <!-- <img src="assets/img/portfolio/Luster.jpg" class="img-fluid" alt=""> -->
+              <div class="portfolio-info">
+                <!-- <h4>LED Board</h4> -->
+                <!-- <p>Lorem ipsum, dolor sit</p> -->
+                <!-- <a href="assets/img/portfolio/Luster.jpg" title="LED Board" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a> -->
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            
+            <!-- End Portfolio Item -->
+
+
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+
+       
+
+         
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- <span class="sitename">Append</span> -->
+            <img src="assets/img/signage1-removebg-preview.png" alt="">
+          </a>
+          <p>we specialize in crafting impactful signage and supplying premium-quality wallpapers that transform spaces into visual masterpieces. </p>
+          <div class="social-links d-flex mt-4">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/sonic_signage/?hl=en"><i class="bi bi-instagram"></i></a>
+            <!-- <a href=""><i class="bi bi-linkedin"></i></a> -->
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services-details.html">Digital Screen</a></li>
+            <li><a href="menu screen.html">Menu Screen</a></li>
+            <li><a href="ACP Elevation.html">ACP Elevation</a></li>
+            <li><a href="CNC Cutting.html">CNC Cutting</a></li>
+            <li><a href="Pixel board.html">Pixel Screen</a></li>
+          
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>4, Opposite Collector Road Near Lal Bag Road, Katju Colony,</p>
+          <p>Jamna Nagar, Indore,</p>
+          <p>Madhya Pradesh 452007</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 9685220101</span></p>
+          <p><strong>Email:</strong> <span>info@sonicsignage.in</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="sitename">Sonic Signage & Wallpaper</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://qualitywebs.in/">Quality Webs</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    let currentSlideIndex = 0;
+
+function moveSlide(direction) {
+  const slides = document.querySelector('.modern-slider');
+  const totalSlides = slides.children.length;
+
+  currentSlideIndex = (currentSlideIndex + direction + totalSlides) % totalSlides;
+  updateSlider();
+}
+
+function goToSlide(index) {
+  currentSlideIndex = index;
+  updateSlider();
+}
+
+function updateSlider() {
+  const slides = document.querySelector('.modern-slider');
+  const dots = document.querySelectorAll('.nav-dot');
+
+  slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+
+  dots.forEach((dot, index) => {
+    dot.classList.toggle('active', index === currentSlideIndex);
+  });
+}
+
+// Initialize the first dot as active
+document.querySelectorAll('.nav-dot')[0].classList.add('active');
+
+  </script>
+
+</body>
+
+</html>
